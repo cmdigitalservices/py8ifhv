@@ -1,0 +1,66 @@
+  /* Typography */
+  @import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+  
+  img {max-width: 100%;}
+
+/* Base */
+body {
+    font-family: 'PT Sans',sans-serif;
+    background-color: var(--beige);
+  }
+
+.container1{
+    margin-right: auto;
+    margin-left:auto;
+    max-width: 60%;
+    align-content: center;
+  }
+
+  
+
+  @media(max-width:760px){
+    .container1{
+    margin-right: auto;
+    margin-left:auto;
+    max-width: 95%;
+    min-width:90%
+    }
+    img{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media(max-width:1220px){
+  .container1{
+  margin-right: auto;
+  margin-left:auto;
+  min-width: 70%;
+  }
+}  
+
+  
+
+  
+  /* Variables */
+
+  :root{
+    --beige:rgb(226, 225, 223); 
+    --white: rgb(255,255,255);
+    --darkgreen: rgb(20,44,45);
+    --darkgreentranparent: rgb(20,44,45,0.5);
+    --grey: rgb(128,128,128);
+    --lightgrey: rgb(195,195,195);
+
+
+    --text1size: 20px;
+    --text1: var(--darkgreen);
+    --text1size:14px;
+    --text2size: 16px;
+    --text2sizeprice: 18px;
+    --text2: var(--white);
+    --text3size: 9px;
+    --text3: var(--lightgrey);
+    --textnav: var(--grey);
+  }
+  
